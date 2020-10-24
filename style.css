@@ -1,0 +1,165 @@
+/* UNIVERSAL STYLES */
+body    {
+    color: #ffffff;
+    font-family: "Bebas Neue";
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* MAINPAGE */
+
+.container-fluid    {
+    background-image: url(images/main-bg.jpg);
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+.MP-img  {
+    position: relative;
+    display: flex;
+    height: 20rem;
+    top: 20rem;
+    width: 45rem;
+    opacity: 0.7;
+}
+
+.MP-maintext    {
+    display: flex;
+    font-family: "Merienda";
+    font-size: 8rem;
+    padding-left: 2rem;
+    position: absolute;
+    top: 25rem;
+}
+
+.MP-subtext {
+    display: flex;
+    font-family: "Bebas Neue";
+    font-size: 3rem;
+    padding-left: 5rem;
+    padding-top: 0;
+    position: absolute;
+    top: 35rem;   
+}
+
+/* PLACES */
+
+.places-container   {
+    margin: 15rem 1rem;
+}
+
+.places-img {
+    height: 30rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    object-fit: contain;
+}
+
+.places-maintext    {
+    color: black;
+    padding: 0.5rem 0 0;
+}
+
+.places-subtext    {
+    color: black;
+}
+
+/* CONTACT */
+
+.contact-container  {
+    background-image: url(images/contact-bg.jpg);
+    height: 100vh;
+    object-fit: cover;
+}
+
+.contact-img    {
+    display: flex;
+    position: absolute;
+    margin-left: 2rem;
+    top: 15rem;
+    height: 35rem;
+    width: 35rem;
+
+}
+
+.contact-maintext   {
+    display: flex;
+    font-size: 8rem;
+    margin-left: 8rem;
+    position: relative;
+    top: 18rem;
+}
+
+.contact-subtext    {
+    font-size: 3rem;
+    display: flex;
+    padding: 0.5rem;
+    position: relative;
+    top: 25rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px)  {
+
+    .contact-subtext    {
+        margin-left: 2rem;
+    }
+    .contact-container   {
+        height: 110vh;
+    }
+}
+
+@media  (max-width: 650px)  {
+    .MP-img  {
+        height: 20rem;
+        top: 20rem;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .MP-maintext    {
+        font-size: 5rem;
+        padding-top: 3rem;
+    }
+
+    .MP-subtext {
+        font-size: 2rem;
+        padding: 0 1.5rem;
+    }
+
+    .places-container   {
+        margin: 2rem;
+        padding: 0;
+    }
+
+    .places-img {
+        height: 20rem;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .contact-maintext   {
+        font-size: 4rem;
+        margin-left: 6rem;
+        padding: 0;
+    }
+
+    .contact-img    {
+        height: 20rem;
+        width: 20rem;
+    
+    }
+
+    .contact-subtext    {
+        font-size: 1.5rem;
+        padding-left: 3rem;
+    }
+    
+}
+
+
+
